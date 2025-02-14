@@ -16,7 +16,7 @@ const Pagination = ({ page, pages }) => {
                 onClick={handlePrev}
                 disabled={page === 1}
                 className={`px-4 py-2 rounded-lg text-white transition 
-                ${page === 1 ? "bg-gray-300 cursor-not-allowed" : "bg-blue-500 hover:bg-blue-600"}`}>
+                ${page === 1 ? "bg-gray-300 cursor-not-allowed" : "bg-blue-500 hover:bg-blue-600 cursor-pointer"}`}>
                 Previous
             </button>
 
@@ -28,7 +28,7 @@ const Pagination = ({ page, pages }) => {
                 onClick={handleNext}
                 disabled={page === pages}
                 className={`px-4 py-2 rounded-lg text-white transition 
-                ${page === pages ? "bg-gray-300 cursor-not-allowed" : "bg-blue-500 hover:bg-blue-600"}`}>
+                ${page === pages ? "bg-gray-300 cursor-not-allowed" : "bg-blue-500 hover:bg-blue-600 cursor-pointer"}`}>
                 Next
             </button>
         </div>
