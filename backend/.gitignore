@@ -1,0 +1,18 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+logs/
+debug.log
+error.log
+
+# OS files
+.DS_Store
+Thumbs.db
